@@ -9,7 +9,7 @@ public class OceanProjectTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		//Uncomment for 4.24
-		//DefaultBuildSettings = BuildSettingsVersion.V2;
+		DefaultBuildSettings = BuildSettingsVersion.V2;
 		ExtraModuleNames.AddRange( new string[] { "OceanProject" } );
 	}
 }
